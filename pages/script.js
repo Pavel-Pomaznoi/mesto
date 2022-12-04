@@ -12,22 +12,22 @@ let openModal = document.querySelector('.profile__button-edit'),
     profileSubtitle = document.querySelector('.profile__subtitle');
 
 function formSubmitHandler(e) {
-  e.preventDefault();
-  profileTitle.textContent = inputName.value;
-  profileSubtitle.textContent = inputSignature.value;
-  hideModal();
+    e.preventDefault();
+    profileTitle.textContent = inputName.value;
+    profileSubtitle.textContent = inputSignature.value;
+    hideModal();
 
 }
 
 function showModal() {
-  inputName.value = profileTitle.textContent;
-  inputSignature.value = profileSubtitle.textContent;
-  modal.classList.add('popup_opened');
+    inputName.value = profileTitle.textContent;
+    inputSignature.value = profileSubtitle.textContent;
+    modal.classList.add('popup_opened');
 
 }
 
 function hideModal() {
-  modal.classList.remove('popup_opened');
+    modal.classList.remove('popup_opened');
 
 }
 
@@ -35,9 +35,9 @@ openModal.addEventListener('click', showModal);
 closeModal.addEventListener('click', hideModal);
 formEditProfile.addEventListener('submit', formSubmitHandler);
 modal.addEventListener('click', (e) => {
-  if(e.target === e.currentTarget) {
-    hideModal();
+    if (e.target === e.currentTarget) {
+        hideModal();
 
-  }
+    }
 
 })
