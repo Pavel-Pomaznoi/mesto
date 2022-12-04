@@ -1,0 +1,22 @@
+.card__heart {
+    position: absolute;
+    width: 22px;
+    height: 19px;
+    right: 20px;
+    bottom: 30px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-image: url('../../../images/heard_img.svg');
+    background-color: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: opacity .3s ease-in-out;
+
+}
+
+.card__heart:hover {
+    opacity: .5;
+
+}

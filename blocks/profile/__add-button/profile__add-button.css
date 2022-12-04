@@ -1,0 +1,32 @@
+.profile__add-button {
+    width: 282px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    background-image: url(../../../images/cross_img_btn.png);
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    cursor: pointer;
+
+}
+
+.profile__add-button:hover {
+    opacity: .6;
+
+}
+
+@media screen and (min-width: 768px) {
+    .profile__add-button {
+        width: 150px;
+        background-size: 22px 22px;
+
+
+    }
+
+}

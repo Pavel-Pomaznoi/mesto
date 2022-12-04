@@ -1,0 +1,46 @@
+/*Топовые файлы*/
+@import url(../vendors/nomalize.css);
+@import url(../vendors/fonts/fonts.css);
+
+/* Page*/
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__container/page__container.css);
+
+/*header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+/*profile*/
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__add-button/profile__add-button.css);
+@import url(../blocks/profile/__avatar-image/profile__avatar-image.css);
+@import url(../blocks/profile/__button-edit/profile__button-edit.css);
+@import url(../blocks/profile/__container/profile__container.css);
+@import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__subtitle/profile__subtitle.css);
+@import url(../blocks/profile/__title-wrap/profile__title-wrap.css);
+@import url(../blocks/profile/__title/profile__title.css);
+
+/*cards*/
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__list/cards__list.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__heart/card__heart.css);
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__title/card__title.css);
+
+/*footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyrigth/footer__copyrigth.css);
+
+/*popup*/
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__close-button/popup__close-button.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__item/popup__item.css);
+@import url(../blocks/popup/__item/_type/popup__item_type_about.css);
+@import url(../blocks/popup/__item/_type/popup__item_type_name.css);
+@import url(../blocks/popup/__save-botton/popup__save-botton.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
